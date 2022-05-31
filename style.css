@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.navbar {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  padding: 15px;
+  color: white;
+}
+
+.navbar a:hover {
+  color: green;
+}
+
+.menu{
+  text-align: center;
+  width: 20%;
+  height: 50%;
+  background-color: black;
+  list-style: none; 
+}
+
+.menu li{
+  padding: 15px;
+}
+
+.menu li a{
+  color: white;
+}
+
+.menu li a:hover{
+  color: purple;
+}
